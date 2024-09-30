@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white flex lg:flex-row flex-row-reverse items-center justify-between top-0 z-20 lg:px-28 fixed w-screen transition-all duration-300 ease-in-out">
+    <nav className="bg-white flex lg:flex-row flex-row-reverse items-center justify-between top-0 z-20 lg:px-20 fixed w-screen transition-all duration-300 ease-in-out">
       <div className="container mx-auto flex justify-between items-center py-4 px-4 lg:px-8">
         <div className="text-2xl font-bold">
           <a href="/">
@@ -73,10 +73,10 @@ const Navbar = () => {
           <a href="#about" className="font-generalsans font-semibold text-xl">
             About Us
           </a>
-          <a href="#" className="font-generalsans font-semibold text-xl">
+          <a href="#portofolio" className="font-generalsans font-semibold text-xl">
             Portfolio
           </a>
-          <a href="#" className="font-generalsans font-semibold text-xl">
+          <a href="#contact" className="font-generalsans font-semibold text-xl">
             Contact
           </a>
         </div>
