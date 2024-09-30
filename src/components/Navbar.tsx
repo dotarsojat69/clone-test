@@ -117,7 +117,7 @@ const Navbar = () => {
               )}
             </div>
             <a href="#about">About Us</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portofolio">Portfolio</a>
             <a href="#contact">Contact</a>
             <button className="bg-[#1e293b] text-white px-4 py-2 rounded ml-0 sm:ml-20 font-generalsans">
               Get Started Today!
