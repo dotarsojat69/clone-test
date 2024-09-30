@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import MethodologySection from "./components/MethodologySection";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,8 @@ export default function App() {
       <TeamSection />
       <PortfolioSection />
       <ContactSection />
+
+      <Footer />
     </div>
   )
 }
