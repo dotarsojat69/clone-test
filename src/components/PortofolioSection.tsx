@@ -10,10 +10,10 @@ const PortfolioSection = () => {
     ];
   
     return (
-      <section className="py-12 bg-[#1e293b]">
+      <section id="portofolio" className="py-12 bg-[#1e293b]">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold font-orbitron text-white mb-12 xl:text-start">Our Portfolio</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <h1 className="text-5xl font-bold font-orbitron text-white mb-12 ml-10 xl:text-start">Our Portfolio</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 ml-10 mr-10">
             {portfolioItems.map((item, index) => (
               <PortfolioCard key={index} {...item} />
             ))}

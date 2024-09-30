@@ -7,13 +7,13 @@ export interface PortfolioItem {
 
 const PortfolioCard: React.FC<PortfolioItem> = ({ title, imageUrl }) => {
   return (
-    <div className="flex flex-col p-5 gap-2">
+    <div className="flex flex-col p-4 gap-2">
       <div className="bg-white rounded-lg overflow-hidden shadow-lg mb-2">
         <div className="relative overflow-hidden">
           <img 
             src={imageUrl} 
             alt={title} 
-            className="w-full h-48 object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
+            className="w-full h-60 object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
           />
         </div>
       </div>
